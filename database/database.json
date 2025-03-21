@@ -1,0 +1,846 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Dang Anh Tuong",
+      "email": "danganhtuongg@gmail.com",
+      "password": "123456",
+      "token": "afdafafas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS"
+    },
+    {
+      "id": "3",
+      "name": "JAVASTRIPT"
+    },
+    {
+      "id": "4",
+      "name": "REACTJS"
+    },
+    {
+      "id": "5",
+      "name": "BOOSTRAP"
+    },
+    {
+      "id": "6",
+      "name": "ANTDESIGN"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "HTML là viết tắt của ...?",
+      "answers": [
+        "HyperText Markup Language",
+        "Home Tool Markup Language",
+        "Hyper text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicId": 1,
+      "question": "CSS được sử dụng để làm gì?",
+      "answers": [
+        "Định dạng nội dung HTML",
+        "Tạo cơ sở dữ liệu",
+        "Viết mã backend"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": 1,
+      "question": "JavaScript chủ yếu được sử dụng để làm gì?",
+      "answers": [
+        "Lập trình phía server",
+        "Tạo hiệu ứng động cho trang web",
+        "Thiết kế giao diện"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "4",
+      "topicId": 1,
+      "question": "ReactJS là gì?",
+      "answers": [
+        "Một thư viện JavaScript để xây dựng giao diện người dùng",
+        "Một framework CSS",
+        "Một hệ quản trị cơ sở dữ liệu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "5",
+      "topicId": 1,
+      "question": "Bootstrap được sử dụng để làm gì?",
+      "answers": [
+        "Tạo các hiệu ứng JavaScript",
+        "Thiết kế giao diện web theo chuẩn responsive",
+        "Lập trình API"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "6",
+      "topicId": 1,
+      "question": "Ant Design là gì?",
+      "answers": [
+        "Một thư viện UI dành cho ReactJS",
+        "Một phần mềm thiết kế đồ họa",
+        "Một công cụ lập trình backend"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo một đoạn văn bản trong HTML?",
+      "answers": [
+        "<p>",
+        "<div>",
+        "<span>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "8",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo một nút bấm trong HTML?",
+      "answers": [
+        "<button>",
+        "<input>",
+        "<click>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo một form trong HTML?",
+      "answers": [
+        "<form>",
+        "<input>",
+        "<submit>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "10",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo một dòng mới trong HTML?",
+      "answers": [
+        "<br>",
+        "<hr>",
+        "<newline>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "11",
+      "topicId": 2,
+      "question": "CSS là viết tắt của gì?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi màu chữ trong CSS?",
+      "answers": [
+        "color",
+        "background-color",
+        "font-color"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi kích thước chữ trong CSS?",
+      "answers": [
+        "font-size",
+        "text-size",
+        "size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "14",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để căn giữa văn bản trong CSS?",
+      "answers": [
+        "text-align: center",
+        "align: center",
+        "center: text"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "15",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thêm khoảng cách giữa các chữ trong CSS?",
+      "answers": [
+        "letter-spacing",
+        "word-spacing",
+        "text-spacing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "16",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi kiểu chữ trong CSS?",
+      "answers": [
+        "font-family",
+        "font-style",
+        "font-type"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thêm viền cho phần tử trong CSS?",
+      "answers": [
+        "border",
+        "outline",
+        "frame"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "18",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi màu nền trong CSS?",
+      "answers": [
+        "background-color",
+        "color",
+        "bgcolor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "19",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thêm bóng đổ cho văn bản trong CSS?",
+      "answers": [
+        "text-shadow",
+        "box-shadow",
+        "shadow"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "20",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi độ trong suốt của phần tử trong CSS?",
+      "answers": [
+        "opacity",
+        "transparency",
+        "visibility"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "21",
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình gì?",
+      "answers": [
+        "Frontend",
+        "Backend",
+        "Cả hai"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "22",
+      "topicId": 3,
+      "question": "Lệnh nào dùng để in ra màn hình trong JavaScript?",
+      "answers": [
+        "console.log()",
+        "print()",
+        "alert()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "23",
+      "topicId": 3,
+      "question": "Biến trong JavaScript được khai báo bằng từ khóa nào?",
+      "answers": [
+        "var",
+        "let",
+        "Cả hai"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "24",
+      "topicId": 3,
+      "question": "Hàm nào dùng để chuyển đổi chuỗi thành số trong JavaScript?",
+      "answers": [
+        "parseInt()",
+        "Number()",
+        "Cả hai"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "25",
+      "topicId": 3,
+      "question": "Phương thức nào dùng để nối hai mảng trong JavaScript?",
+      "answers": [
+        "concat()",
+        "join()",
+        "merge()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "26",
+      "topicId": 3,
+      "question": "Lệnh nào dùng để tạo một hàm trong JavaScript?",
+      "answers": [
+        "function",
+        "def",
+        "func"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "27",
+      "topicId": 3,
+      "question": "Phương thức nào dùng để thêm phần tử vào cuối mảng trong JavaScript?",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "28",
+      "topicId": 3,
+      "question": "Phương thức nào dùng để xóa phần tử cuối cùng của mảng trong JavaScript?",
+      "answers": [
+        "pop()",
+        "shift()",
+        "slice()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "29",
+      "topicId": 3,
+      "question": "Lệnh nào dùng để kiểm tra kiểu dữ liệu của biến trong JavaScript?",
+      "answers": [
+        "typeof",
+        "instanceof",
+        "type"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "30",
+      "topicId": 3,
+      "question": "Phương thức nào dùng để chuyển đổi chuỗi thành chữ hoa trong JavaScript?",
+      "answers": [
+        "toUpperCase()",
+        "toLowercase()",
+        "upperCase()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "31",
+      "topicId": 4,
+      "question": "ReactJS là gì?",
+      "answers": [
+        "Thư viện JavaScript",
+        "Framework JavaScript",
+        "Ngôn ngữ lập trình"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "32",
+      "topicId": 4,
+      "question": "Lệnh nào dùng để tạo một component trong ReactJS?",
+      "answers": [
+        "function Component() {}",
+        "class Component extends React.Component {}",
+        "Cả hai"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "33",
+      "topicId": 4,
+      "question": "Thuộc tính nào dùng để truyền dữ liệu từ component cha sang component con?",
+      "answers": [
+        "props",
+        "state",
+        "data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "34",
+      "topicId": 4,
+      "question": "Phương thức nào dùng để cập nhật state trong ReactJS?",
+      "answers": [
+        "setState()",
+        "updateState()",
+        "changeState()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "35",
+      "topicId": 4,
+      "question": "Hook nào dùng để quản lý state trong functional component?",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useContext()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "36",
+      "topicId": 4,
+      "question": "Phương thức nào dùng để render một component trong ReactJS?",
+      "answers": [
+        "render()",
+        "return()",
+        "display()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "37",
+      "topicId": 4,
+      "question": "Lệnh nào dùng để import React vào dự án?",
+      "answers": [
+        "import React from 'react';",
+        "require('react');",
+        "include React;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "38",
+      "topicId": 4,
+      "question": "Phương thức nào dùng để xử lý sự kiện trong ReactJS?",
+      "answers": [
+        "onClick",
+        "onChange",
+        "Cả hai"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "39",
+      "topicId": 4,
+      "question": "Hook nào dùng để thực hiện side effects trong functional component?",
+      "answers": [
+        "useEffect()",
+        "useState()",
+        "useContext()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "40",
+      "topicId": 4,
+      "question": "Phương thức nào dùng để tạo một ref trong ReactJS?",
+      "answers": [
+        "useRef()",
+        "createRef()",
+        "Cả hai"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "41",
+      "topicId": 5,
+      "question": "Bootstrap là gì?",
+      "answers": [
+        "Framework CSS",
+        "Thư viện JavaScript",
+        "Ngôn ngữ lập trình"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "42",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một nút bấm trong Bootstrap?",
+      "answers": [
+        "btn",
+        "button",
+        "btn-primary"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "43",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một container trong Bootstrap?",
+      "answers": [
+        "container",
+        "wrapper",
+        "box"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "44",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một hàng trong Bootstrap?",
+      "answers": [
+        "row",
+        "col",
+        "grid"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "45",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một cột trong Bootstrap?",
+      "answers": [
+        "col",
+        "row",
+        "grid"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "46",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một thanh điều hướng trong Bootstrap?",
+      "answers": [
+        "navbar",
+        "nav",
+        "menu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "47",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một biểu mẫu trong Bootstrap?",
+      "answers": [
+        "form",
+        "input-group",
+        "form-group"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "48",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một thẻ cảnh báo trong Bootstrap?",
+      "answers": [
+        "alert",
+        "warning",
+        "notice"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "49",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một hình ảnh đáp ứng trong Bootstrap?",
+      "answers": [
+        "img-fluid",
+        "responsive-img",
+        "img-responsive"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "50",
+      "topicId": 5,
+      "question": "Lớp nào dùng để tạo một bảng trong Bootstrap?",
+      "answers": [
+        "table",
+        "grid",
+        "data-table"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "51",
+      "topicId": 6,
+      "question": "Ant Design là gì?",
+      "answers": [
+        "Thư viện UI",
+        "Framework CSS",
+        "Ngôn ngữ lập trình"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "52",
+      "topicId": 6,
+      "question": "Lệnh nào dùng để import Ant Design vào dự án React?",
+      "answers": [
+        "import { Button } from 'antd';",
+        "import Antd from 'antd';",
+        "include Antd;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "53",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một nút bấm trong Ant Design?",
+      "answers": [
+        "Button",
+        "Btn",
+        "Click"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "54",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một biểu mẫu trong Ant Design?",
+      "answers": [
+        "Form",
+        "Input",
+        "Form.Item"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "55",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một bảng trong Ant Design?",
+      "answers": [
+        "Table",
+        "Grid",
+        "DataTable"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "56",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một menu trong Ant Design?",
+      "answers": [
+        "Menu",
+        "Nav",
+        "Sidebar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "57",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một thẻ cảnh báo trong Ant Design?",
+      "answers": [
+        "Alert",
+        "Notice",
+        "Warning"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "58",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một modal trong Ant Design?",
+      "answers": [
+        "Modal",
+        "Dialog",
+        "Popup"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "59",
+      "topicId": 6,
+      "question": "Component nào dùng để tạo một thanh tiến trình trong Ant Design?",
+      "answers": [
+        "Progress",
+        "Loader",
+        "Spinner"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 2
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 2
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "id": "d052",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "da4e",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 2
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
