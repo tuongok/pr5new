@@ -1,0 +1,34 @@
+.result__tag--true{
+    color:green;
+    background: rgb(229, 216, 216);
+    padding: 3px;
+    border-radius: 5px;
+}
+.result__tag--false{
+    color:rgb(255, 0, 0);
+    background: rgb(229, 216, 216);
+    padding: 3px;
+    border-radius: 5px;
+}
+.result__item--selected{
+    color:rgb(255, 0, 0);
+}
+.result__item--result{
+    color: rgb(7, 163, 7);
+}
+.link{
+    margin-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    background: #89B449;
+    border-radius: 10px;
+
+
+}
+.link a:hover{
+    color:white ;
+}
